@@ -3,9 +3,9 @@ main = "src/worker.ts"
 compatibility_date = "2023-12-01"
 node_compat = true
 # if you want use custom_domain, you need to add routes
-# routes = [
-# 	{ pattern = "temp-email-api.xxxxx.xyz", custom_domain = true },
-# ]
+routes = [
+	{ pattern = "webmail-api.178668.xyz", custom_domain = true },
+]
 
 # enable cron if you want set auto clean up
 # [triggers]
