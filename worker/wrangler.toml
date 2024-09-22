@@ -34,8 +34,8 @@ PREFIX = "tmp"
 # DISABLE_ADMIN_PASSWORD_CHECK = false
 # ADMIN CONTACT, CAN BE ANY STRING
 # ADMIN_CONTACT = "xx@xx.xxx"
-DEFAULT_DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # domain name for no role users
-DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
+DEFAULT_DOMAINS = ["178668.xyz"] # domain name for no role users
+DOMAINS = ["178668.xyz" , "q012.com"] # all domain names
 # For chinese domain name, you can use DOMAIN_LABELS to show chinese domain name
 # DOMAIN_LABELS = ["中文.xxx", "xxx.xxx2"]
 # USER_DEFAULT_ROLE = "vip" # default role for new users(only when enable mail verification)
@@ -45,7 +45,7 @@ DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "vip", prefix = "vip" },
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "admin", prefix = "" },
 # ]
-JWT_SECRET = "xxx"
+JWT_SECRET = "A55o58oo"
 BLACK_LIST = ""
 # Allow users to create email addresses
 ENABLE_USER_CREATE_EMAIL = true
@@ -75,8 +75,8 @@ ENABLE_AUTO_REPLY = false
 
 [[d1_databases]]
 binding = "DB"
-database_name = "xxx"
-database_id = "xxx"
+database_name = "178668-email"
+database_id = "b152a20e-fdd8-4276-86bc-b9d39ab798b4"
 
 # kv config for send email verification code
 # [[kv_namespaces]]
